@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Product } from '../types/product';
-import { api } from '@/services/service';
-import { Loading } from '@/components/common/Loading';
-import { ProductCard } from '@/components/products/ProductCard';
-import { useWishlist } from '@/utils/useWishlist';
+import { useWishlist } from '../utils/useWishlist';
+import { api } from '../services/service';
+import { Loading } from '../components/common/Loading';
+import { ProductCard } from '../components/products/ProductCard';
 
 export const WishlistPage = () => {
     const [wishlistProducts, setWishlistProducts] = useState<Product[]>([]);
