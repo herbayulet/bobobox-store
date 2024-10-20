@@ -1,5 +1,5 @@
 # Frontend Engineer Skill Test
-This project is a React application that fetches and displays data from the Dummy JSON API (https://dummyjson.com/products). It includes a grid layout for products and a detailed product page.
+This project is a React application that fetches and displays data from the Dummy JSON API (https://dummyjson.com/products). It includes a grid layout for products, a detailed product page and whislist page.
 
 ## Deploy on
 https://cozy-lebkuchen-7cd071.netlify.app/
